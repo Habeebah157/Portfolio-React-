@@ -1,0 +1,20 @@
+.project-container{
+    border-color: black;
+    border:solid;
+    width:30%;
+    margin: auto;
+    margin-top:10px;
+    margin-left: 1em;
+    margin-bottom: 5px;
+    height: 90px;
+    text-align: center;
+    display: block;
+    float: left;
+    
+}
+li{
+    list-style-type: none;
+}
+.project-name{
+    font-size: 20px;
+}

@@ -1,0 +1,50 @@
+.github{
+ 
+    border:solid;
+    border-color: rgb(255, 24, 62);
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+}
+.github-img{
+    border: solid;
+    border-color: black;
+    width: 20%;
+    float: right;
+    background-color: black;
+
+}
+.github-text{
+    font-size: larger;
+}
+.linkedin{
+    
+    border:solid;
+    border-color: rgb(255,24, 62);
+    padding:20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+.linkedin-text{
+    font-size: larger;
+}
+.linkedin-img{
+    width: 50%;
+    float: right;
+}
+/* 766 */
+@media screen and (min-width:766px) {
+  
+    .linkedin-img{
+        width: 20%;
+        float: right;
+    }
+    .github-img{
+        width: 10%;
+        float: right;
+    }
+    
+    
+}

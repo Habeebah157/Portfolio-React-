@@ -1,0 +1,68 @@
+// function Gettingproject() {
+//     const octokit = new Octokit({ auth: process.env.REACT_APP_API_KEY });
+//     const fetchProjects = async () => {
+//       try {
+//         const response = await octokit.request("GET /users/{owner}/repos", {
+//           owner: "Habeebah157",
+//           per_page: 1000,
+//         });
+//         for (let i = 0; i < response.data.length; i++) {
+//           console.log(response.data[i].language); // You can handle the response data here
+//         }
+//         console.log("YES", response.data);
+
+//         setProject(response.data);
+//       } catch (error) {
+//         console.error(error); // Handle any errors that may occur during the request
+//       }
+//     };
+//   }
+
+//   useEffect(() => {
+//     Gettingproject();
+//     fetchProjects();
+//   }, []);
+
+// useEffect(()=>{
+
+//     Gettingproject()
+
+//       function Gettingproject() {
+//           const octokit = new Octokit({ auth: process.env.REACT_APP_API_KEY })
+//           const fetchProjects = async () => {
+//              fetch('http://localhost:8000/projects')
+//              .then((response)=> response.json())
+
+//           }
+//           fetchProjects()
+//       }
+//   },[])
+  {/* <Navbar />
+      {project.map((proj) => (
+        <div className="project-container">
+          <li className="project-name" key={proj.name}>
+            <a href={proj.html_url} target="_blank">
+              {proj.name}
+            </a>
+            {<br></br>}
+            {proj.language}
+          </li>
+        </div>
+      ))} */}
+
+
+
+      //   const [project, setProject] = useState([]);
+
+//   useEffect(()=>{
+//     fetch('http://localhost:8000/projects')
+//         .then(response => {
+//             if(response.ok){
+//                 console.log(response)
+//             }
+
+//         })
+//         .catch(error=>{
+//             console.log(error)
+//         })
+//   },[])
