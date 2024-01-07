@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React-/static/css/main.aa7d8fb1.css",
+    "main.js": "/Portfolio-React-/static/js/main.80273d88.js",
+    "static/js/787.a4b45000.chunk.js": "/Portfolio-React-/static/js/787.a4b45000.chunk.js",
+    "static/media/LI-Logo.png": "/Portfolio-React-/static/media/LI-Logo.a95afc06831647f5fca2.png",
+    "index.html": "/Portfolio-React-/index.html",
+    "main.aa7d8fb1.css.map": "/Portfolio-React-/static/css/main.aa7d8fb1.css.map",
+    "main.80273d88.js.map": "/Portfolio-React-/static/js/main.80273d88.js.map",
+    "787.a4b45000.chunk.js.map": "/Portfolio-React-/static/js/787.a4b45000.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa7d8fb1.css",
+    "static/js/main.80273d88.js"
+  ]
+}
