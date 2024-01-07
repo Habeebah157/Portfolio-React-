@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar/Navbar";
-import { Octokit } from "@octokit/core";
 import "./ProjectPage.css";
 import axios from "axios";
 
